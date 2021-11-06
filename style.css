@@ -1,0 +1,72 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #484848;
+
+  font-family: "Lato", sans-serif;
+  padding: 0.45em 2.65em 3em;
+  line-height: 1.5;
+}
+
+p {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  justify-content: center;
+  display: flexbox;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 0.45em 0.5em;
+  margin-bottom: 0.35em;
+  display: flex;
+  align-items: center;
+}
+div {
+  margin: 20px 0;
+  padding: 20px 0 0.5em;
+}
+
+select {
+  font-size: 14px;
+  padding: 10px;
+  margin-right: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+/* Buttons */
+button {
+  color: white;
+  background: #508abc;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: 0;
+}
+button + button {
+  margin-left: 0.5em;
+}
+
+.custom-select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

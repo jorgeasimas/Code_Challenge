@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <h1 id="myHeading">Interview - Coding Challenge </h1>
+    <div class="listDiv">
+      <div class="custom-select" style="width: 400px">
+        <select id='product' onChange="fetchProduct">
+          <!-- <option value="0">Select Product:</option>
+          <option value="1">book $12.49</option>
+          <option value="2">music CD $14.99</option>
+          <option value="3">chocolate bar $0.85</option>
+          <option value="4">imported box of chocolate $10.00</option>
+          <option value="5">imported bottle of perfume $47.50</option>
+          <option value="6">imported bottle of perfume $27.99</option>
+          <option value="7">bottle of perfume $18.99</option>
+          <option value="8">packet of headache pills $9.75</option>
+          <option value="9">imported boxes of chocolates $11.25</option> -->
+        </select>
+        <select id='quantity' onChange="fetchQty" >
+          <!-- <option value="10">Add quantity</option> -->
+          <option value="11">1</option>
+          <option value="12">2</option>
+          <option value="13">3</option>
+        </select>
+      </div>
+      </div>
+      <button class="addItemButton" onClick="addItem()">Add a item</button>
+      <ul>
+      </ul>
+      <p id="sales_taxes">Sales taxes:</p>
+      <p id="total">Total:</p>
+    </div>
+  </div>
+    <script src="app.js"></script>
+  </body>
+</html>
